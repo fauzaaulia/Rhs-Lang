@@ -10,7 +10,7 @@ new update <-- Arti -->
 - TO = r'OT'
 - ARROW = r'->'
 
-#NOTE
+# NOTE
 Ini adalah kode sumber seri bahasa pemrograman howCode.
 
 Anda dapat menonton video yang menyertai seri ini di sini: https://www.youtube.com/playlist?list=PLBOh8f9FoHHggpbiK-FSdSw3FiyP78fbk
