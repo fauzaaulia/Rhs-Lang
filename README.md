@@ -1,5 +1,7 @@
 # Rhs-Lang
-Teknik Kompilasi (Belajar) dengan Library Sly
+Teknik Kompilasi (Belajar) dengan Library Sly. 
+
+Universitas Negeri Semarang
 
 new update <-- Arti -->
 - IF = r'FI'
