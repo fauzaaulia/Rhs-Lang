@@ -19,5 +19,29 @@ Anda dapat menonton video yang menyertai seri ini di sini: https://www.youtube.c
 
 ## DOKUMENTASI PENGGUNAAN
 
-### Contoh Penggunaan
+### Hello Word
+```
+a= "Hello Word"
+TNIRP a 
+```
 
+###IF ELSE 
+
+IF expr THEN expr ELSE expr
+
+example:
+```
+a=6
+y="right"
+n="false"
+FI a==6 NEHT TNIRP y ESLE TNIRP n
+```
+
+#FOR
+
+FOR expr TO expr THEN expr
+
+example:
+```
+ROF i=0 OT 5 NEHT TNIPR i
+```
