@@ -1,4 +1,3 @@
-from sly import Lexer
 from sly import Parser
 
 import rhs_lexer
@@ -81,6 +80,10 @@ class BasicParser(Parser):
     @_('NUMBER')
     def expr(self, p):
         return ('num', p.NUMBER)
+        
+    @_('PRINT expr')
+    def expr(self, p):
+        return ('print', p.expr)
 
 if __name__ == '__main__':
     lexer = rhs_lexer.BasicLexer()
@@ -88,7 +91,7 @@ if __name__ == '__main__':
     env = {}
     while True:
         try:
-            text = input('basic > ')
+            text = input('rhs > ')
         except EOFError:
             break
         if text:
