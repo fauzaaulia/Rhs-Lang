@@ -19,3 +19,5 @@ Anda dapat menonton video yang menyertai seri ini di sini: https://www.youtube.c
 - Ahmad Fauza Aulia
 - Nia Zulia Saputri
 - Fitri Amalia Langgundi
+
+#DOKUMENTASI CARA PENGGUNAAN
