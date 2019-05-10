@@ -1,13 +1,14 @@
 from sly import Lexer
 
 class BasicLexer(Lexer):
-    tokens = { NAME, NUMBER, STRING, IF, THEN, ELSE, FOR, FUN, TO, ARROW, EQEQ }
+    tokens = { NAME, NUMBER, STRING, IF, PRINT, THEN, ELSE, FOR, FUN, TO, ARROW, EQEQ }
     ignore = '\t '
 
     literals = { '=', '+', '-', '/', '*', '(', ')', ',', ';' }
 
     # Define tokens
     IF = r'FI'
+    PRINT = r'TNIRP'
     THEN = r'NEHT'
     ELSE = r'ESLE'
     FOR = r'ROF'
@@ -38,7 +39,7 @@ if __name__ == '__main__':
     env = {}
     while True:
         try:
-            text = input('basic > ')
+            text = input('rhs > ')
         except EOFError:
             break
         if text:
