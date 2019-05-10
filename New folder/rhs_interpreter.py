@@ -1,6 +1,3 @@
-from sly import Lexer
-from sly import Parser
-    
 import rhs_lexer
 import rhs_parser
 
@@ -93,6 +90,9 @@ class BasicExecute:
         if node[0] == 'for_loop_setup':
             return (self.walkTree(node[1]), self.walkTree(node[2]))
 
+        if node[0] == 'print':
+            return (self.walkTree(node[1]))
+
 
 if __name__ == '__main__':
     lexer = rhs_lexer.BasicLexer()
@@ -100,7 +100,7 @@ if __name__ == '__main__':
     env = {}
     while True:
         try:
-            text = input('basic > ')
+            text = input('rhs > ')
         except EOFError:
             break
         if text:
