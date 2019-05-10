@@ -1,3 +1,12 @@
-a=2\n
-b=3\n
-a+b
+a=2
+b=1
+y="Betul"
+n="Salah"
+FI a+b==3 NEHT TNIRP y ESLE TNIRP n
+
+ROF c=0 OT 5 NEHT b+c
+
+h= "Hello Word"
+TNIRP h
+
+ROF i=0 OT 5 NEHT TNIRP i
