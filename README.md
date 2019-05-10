@@ -1,32 +1,37 @@
 # Rhs-Lang
 Teknik Kompilasi (Belajar) dengan Library Sly. 
 
-Universitas Negeri Semarang
-
 new update <-- Arti -->
-- IF = r'FI'
-- THEN = r'NEHT'
-- ELSE = r'ESLE'
-- FOR = r'ROF'
-- FUN = r'NUF'
-- TO = r'OT'
-- ARROW = r'->'
+- IF = FI
+- PRINT => TNIRP
+- THEN => NEHT
+- ELSE => ESLE
+- FOR => ROF
+- FUN => NUF
+- TO => OT
+- ARROW => ->
 
 # NOTE
 Ini adalah kode sumber seri bahasa pemrograman howCode.
 
 Anda dapat menonton video yang menyertai seri ini di sini: https://www.youtube.com/playlist?list=PLBOh8f9FoHHgPEbiK-FSdSw3FiyP78fbk
 
-#Our Grup:
+## Our Grup:
 - Ahmad Fauza Aulia
-- Nia Zulia Saputri
 - Fitri Amalia Langgundi
+- Nia Zulia Saputri
 
 # Documentation
 
 ## How To Use 
 
-
+Follow this steps
+1. Open cmd or bash with the directory this folder
+2. And then run file main.py in the New Folder
+**_note_**
+```
+You can edit file code in the **Bahasaku._rhs_**
+```
 ## Examples Rhs Lang
 
 ### Hello Word
@@ -41,7 +46,7 @@ TNIRP a
 
 ### IF ELSE 
 
-IF expr THEN expr ELSE expr
+IF expr THEN stmt1 ELSE stmt2
 
 **example:**
 ```
@@ -58,7 +63,7 @@ FI a==6 NEHT TNIRP y ESLE TNIRP n
 
 ### FOR
 
-FOR expr TO expr THEN expr
+FOR expr TO stmt1 THEN stmt2
 
 **example:**
 ```
