@@ -2,13 +2,14 @@ from sly import Lexer
 from sly import Parser
 
 class BasicLexer(Lexer):
-    tokens = { NAME, NUMBER, STRING, IF, THEN, ELSE, FOR, FUN, TO, ARROW, EQEQ }
+    tokens = { NAME, NUMBER, STRING, IF, PRINT, THEN, ELSE, FOR, FUN, TO, ARROW, EQEQ }
     ignore = '\t '
 
     literals = { '=', '+', '-', '/', '*', '(', ')', ',', ';' }
 
     # Define tokens
     IF = r'FI'
+    PRINT = r'TNIRP'
     THEN = r'NEHT'
     ELSE = r'ESLE'
     FOR = r'ROF'
