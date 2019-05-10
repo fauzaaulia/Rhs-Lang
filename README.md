@@ -28,9 +28,10 @@ Anda dapat menonton video yang menyertai seri ini di sini: https://www.youtube.c
 Follow this steps
 1. Open cmd or bash with the directory this folder
 2. And then run file main.py in the New Folder
-**_note_**
+
+**_Note_**
 ```
-You can edit file code in the **Bahasaku._rhs_**
+You can edit file code in the Bahasaku.rhs
 ```
 ## Examples Rhs Lang
 
