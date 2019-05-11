@@ -2,7 +2,7 @@
 Teknik Kompilasi (Belajar) dengan Library Sly. 
 
 new update <-- Arti -->
-- IF = FI
+- IF => FI
 - PRINT => TNIRP
 - THEN => NEHT
 - ELSE => ESLE
@@ -27,7 +27,7 @@ Anda dapat menonton video yang menyertai seri ini di sini: https://www.youtube.c
 
 Follow this steps
 1. Open cmd or bash with the directory this folder
-2. And then run file main.py in the New Folder
+2. And then run file main.py in the Rhs-Lang folder
 
 **_Note_**
 ```
@@ -36,13 +36,53 @@ You can edit file code in the Bahasaku.rhs
 ## Examples Rhs Lang
 
 ### Hello Word
+
+**example:**
 ```
 a= "Hello Word"
 TNIRP a 
 ```
+
 **result**
 ```
 "Hello World"
+```
+
+### Addition, Subtraction, Multiplication, Division
+
+
+**example:**
+```
+3+2
+4-1
+3*3
+4/2
+```
+
+**result**
+```
+5
+3
+6
+2
+```
+
+**or**
+```
+a=6
+b=2
+TNIRP a+b
+TNIRP a-b
+TNIRP a*b
+TNIRP a/b
+```
+
+**result**
+```
+8
+4
+12
+3
 ```
 
 ### IF ELSE 
@@ -78,4 +118,21 @@ ROF i=0 OT 5 NEHT TNIPR i
 2
 3
 4
+```
+
+### Use Comment
+
+You can use '#' symbol to make comment in your source code.
+
+**example:**
+```
+a=6
+y="right" #If The Statement Right
+n="false" #If The Statement False
+FI a==6 NEHT TNIRP y ESLE TNIRP n
+```
+
+**result**
+```
+"right"
 ```
