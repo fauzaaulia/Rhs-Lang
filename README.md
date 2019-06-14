@@ -1,7 +1,17 @@
 # Rhs-Lang
+Repo Teknik Kompilasi (Belajar) dengan Library Sly.
+
+## Our Grup:
+- Ahmad Fauza Aulia
+- Fitri Amalia Langgundi
+- Nia Zulia Saputri
+
+# Documentation
+
+## Rhs-Lang
 Teknik Kompilasi (Belajar) dengan Library Sly. 
 
-new update <-- Arti -->
+<-- Arti -->
 - IF => FI
 - PRINT => TNIRP
 - THEN => NEHT
@@ -10,18 +20,6 @@ new update <-- Arti -->
 - FUN => NUF
 - TO => OT
 - ARROW => ->
-
-# NOTE
-Ini adalah kode sumber seri bahasa pemrograman howCode.
-
-Anda dapat menonton video yang menyertai seri ini di sini: https://www.youtube.com/playlist?list=PLBOh8f9FoHHgPEbiK-FSdSw3FiyP78fbk
-
-## Our Grup:
-- Ahmad Fauza Aulia
-- Fitri Amalia Langgundi
-- Nia Zulia Saputri
-
-# Documentation
 
 ## How To Use 
 
@@ -35,9 +33,19 @@ You can edit file code in the Bahasaku.rhs
 ```
 ## Examples Rhs Lang
 
-### Hello Word
+### PRINT Hello Word
 
 **example:**
+```
+TNIRP "Hello Word" 
+```
+
+**result**
+```
+Hello World
+```
+
+**or:**
 ```
 a= "Hello Word"
 TNIRP a 
@@ -138,3 +146,8 @@ FI a==6 NEHT TNIRP y ESLE TNIRP n
 ```
 
 Selamat Mencoba :)
+
+# NOTE
+Ini adalah modifikasi kode sumber seri bahasa pemrograman howCode.
+
+Anda dapat menonton video yang menyertai seri ini di sini: https://www.youtube.com/playlist?list=PLBOh8f9FoHHgPEbiK-FSdSw3FiyP78fbk
