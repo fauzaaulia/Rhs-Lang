@@ -85,6 +85,10 @@ class BasicParser(Parser):
     def expr(self, p):
         return ('print', p.expr)
 
+    @_('PRINT STRING')
+    def statement(self, p):
+        return ('print', p.STRING)
+
 if __name__ == '__main__':
     lexer = rhs_lexer.BasicLexer()
     parser = BasicParser()

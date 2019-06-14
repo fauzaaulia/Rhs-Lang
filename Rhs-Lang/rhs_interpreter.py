@@ -34,6 +34,12 @@ class BasicExecute:
         if node[0] == 'str':
             return node[1]
 
+        if node[0] == 'print':
+            if node[1][0] == '"':
+                print(node[1][1:len(node[1])-1])
+            else:
+                return self.walkTree(node[1])
+
         if node[0] == 'if_stmt':
             result = self.walkTree(node[1])
             if result:
@@ -102,8 +108,8 @@ class BasicExecute:
         if node[0] == 'for_loop_setup':
             return (self.walkTree(node[1]), self.walkTree(node[2]))
 
-        if node[0] == 'print':
-            return (self.walkTree(node[1]))
+        # if node[0] == 'print':
+        #     return (self.walkTree(node[1]))
 
 
 if __name__ == '__main__':
