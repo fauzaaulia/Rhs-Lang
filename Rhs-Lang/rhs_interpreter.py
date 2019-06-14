@@ -60,7 +60,19 @@ class BasicExecute:
         elif node[0] == 'mul':
             return self.walkTree(node[1]) * self.walkTree(node[2])
         elif node[0] == 'div':
-            return self.walkTree(node[1]) / self.walkTree(node[2])
+            a = self.walkTree(node[1])
+            b = self.walkTree(node[2])
+            c = 0
+            while True:
+                c += 1
+                d = b*c
+                if d == a:
+                    break
+                elif d > a:
+                    c -= 1
+                    break
+                pass
+            return c
 
         if node[0] == 'var_assign':
             self.env[node[1]] = self.walkTree(node[2])

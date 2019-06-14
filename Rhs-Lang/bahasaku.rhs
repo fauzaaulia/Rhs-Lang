@@ -10,3 +10,5 @@ h= "Hello Word"
 TNIRP h
 
 ROF i=0 OT 5 NEHT TNIRP i
+
+TNIRP a*b

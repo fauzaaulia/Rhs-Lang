@@ -136,3 +136,5 @@ FI a==6 NEHT TNIRP y ESLE TNIRP n
 ```
 "right"
 ```
+
+Selamat Mencoba :)
