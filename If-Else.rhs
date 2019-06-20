@@ -1,0 +1,4 @@
+a=6
+y="true"
+n="false"
+FI a==6 NEHT TNIRP y ESLE TNIRP n
