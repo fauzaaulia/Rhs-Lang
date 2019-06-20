@@ -12,7 +12,7 @@ Repository of Compilation Techniques (Learning) with [Library SLY](https://sly.r
 
 ## You Must Know
 
-- [x] this language is created using the SLY library which is supported with PYTHON version 3.*
+- [x] this language is created using the SLY library which is supported with [PYTHON version 3.*](https://www.python.org/ "Python")
 - [x] this language has the extension .rhs
 
 ## Command in Rhs-Lang
@@ -32,8 +32,14 @@ Repository of Compilation Techniques (Learning) with [Library SLY](https://sly.r
 ## How To Use 
 
 **Follow this steps**
-1. Open powershell or bash with the directory this folder `cd ../Rhs-Lang/`
-2. And then run file main.py in the Rhs-Lang folder with command:`python .main.py .bahasaku.rhs`
+1. Open CMD or TERMINAL with the directory this folder directory `cd .../Rhs-Lang/`
+2. And then run file main.py in the Rhs-Lang folder
+
+for ex:
+Copy paste this text to your cmd or terminal
+```
+python .main.py .bahasaku.rhs
+```
 
 **_NOW, YOU CAN DO IT_**
 
