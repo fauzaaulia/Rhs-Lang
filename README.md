@@ -150,4 +150,4 @@ Selamat Mencoba :)
 # NOTE
 Ini adalah modifikasi kode sumber seri bahasa pemrograman howCode.
 
-Anda dapat menonton video yang menyertai seri ini di sini: https://www.youtube.com/playlist?list=PLBOh8f9FoHHgPEbiK-FSdSw3FiyP78fbk
+Anda dapat menonton video yang menyertai seri ini di sini: https://www.youtube.com/playlist?list=PLBOh8f9FoHHgPEbiK-FSdSw3FiyP78fbk 

@@ -108,9 +108,6 @@ class BasicExecute:
         if node[0] == 'for_loop_setup':
             return (self.walkTree(node[1]), self.walkTree(node[2]))
 
-        # if node[0] == 'print':
-        #     return (self.walkTree(node[1]))
-
 
 if __name__ == '__main__':
     lexer = rhs_lexer.BasicLexer()
