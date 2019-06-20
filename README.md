@@ -12,8 +12,8 @@ Repository of Compilation Techniques (Learning) with [Library SLY](https://sly.r
 
 ## You Must Know
 
-[x] this language is created using the SLY library which is supported with PYTHON version 3.*
-[x] this language has the extension .rhs
+- [x] this language is created using the SLY library which is supported with PYTHON version 3.*
+- [x] this language has the extension .rhs
 
 ## Command in Rhs-Lang
 
