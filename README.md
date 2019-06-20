@@ -6,26 +6,34 @@ Repo Teknik Kompilasi (Belajar) dengan Library Sly.
 - Fitri Amalia Langgundi
 - Nia Zulia Saputri
 
+---
+
 # Documentation
 
-## Rhs-Lang
-Teknik Kompilasi (Belajar) dengan Library Sly. 
+## You Must Know
 
-<-- Arti -->
-- IF => FI
-- PRINT => TNIRP
-- THEN => NEHT
-- ELSE => ESLE
-- FOR => ROF
-- FUN => NUF
-- TO => OT
-- ARROW => ->
+> this language is created using the SLY library which is supported with PYTHON version 3.*
+
+## Command in Rhs-Lang
+
+| RHS-LANG |  MEAN  |
+| -------- |  ----  |
+| FI       |  IF    |
+| TNIRP    |  PRINT |
+| NEHT     |  THEN  |
+| ESLE     |  ELSE  |
+| ROF      |  FOR   |
+| NUF      |  FUN   |
+| OT       |  TO    |
+| ->       |  ARROW |
+
 
 ## How To Use 
 
 Follow this steps
-1. Open cmd or bash with the directory this folder
+1. Open powershell or bash with the directory this folder `cd ../Rhs-Lang/`
 2. And then run file main.py in the Rhs-Lang folder
+    command:`python .main.py .bahasaku.rhs`
 
 **_Note_**
 ```
