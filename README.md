@@ -1,5 +1,5 @@
 # Rhs-Lang
-Repo Teknik Kompilasi (Belajar) dengan Library Sly.
+Repository of Compilation Techniques (Learning) with [Library SLY](https://sly.readthedocs.io/en/latest/sly.html).
 
 ## Our Grup:
 - Ahmad Fauza Aulia
@@ -12,7 +12,8 @@ Repo Teknik Kompilasi (Belajar) dengan Library Sly.
 
 ## You Must Know
 
-> this language is created using the SLY library which is supported with PYTHON version 3.*
+[x] this language is created using the SLY library which is supported with PYTHON version 3.*
+[x] this language has the extension .rhs
 
 ## Command in Rhs-Lang
 
@@ -30,22 +31,21 @@ Repo Teknik Kompilasi (Belajar) dengan Library Sly.
 
 ## How To Use 
 
-Follow this steps
+**Follow this steps**
 1. Open powershell or bash with the directory this folder `cd ../Rhs-Lang/`
-2. And then run file main.py in the Rhs-Lang folder
-    command:`python .main.py .bahasaku.rhs`
+2. And then run file main.py in the Rhs-Lang folder with command:`python .main.py .bahasaku.rhs`
 
-**_Note_**
-```
-You can edit file code in the Bahasaku.rhs
-```
+**_NOW, YOU CAN DO IT_**
+
+> You can edit file code in the `Bahasaku.rhs`
+
 ## Examples Rhs Lang
 
-### PRINT Hello Word
+### PRINT Hello World!!
 
 **example:**
 ```
-TNIRP "Hello Word" 
+TNIRP "Hello World" 
 ```
 
 **result**
@@ -55,7 +55,7 @@ Hello World
 
 **or:**
 ```
-a= "Hello Word"
+a= "Hello World"
 TNIRP a 
 ```
 
@@ -103,24 +103,24 @@ TNIRP a/b
 
 ### IF ELSE 
 
-IF expr THEN stmt1 ELSE stmt2
+> IF _expr_ THEN _stmt1_ ELSE _stmt2_
 
 **example:**
 ```
 a=6
-y="right"
+y="true"
 n="false"
 FI a==6 NEHT TNIRP y ESLE TNIRP n
 ```
 
 **result**
 ```
-"right"
+"true"
 ```
 
 ### FOR
 
-FOR expr TO stmt1 THEN stmt2
+> FOR _expr_ TO _stmt1_ THEN _stmt2_
 
 **example:**
 ```
@@ -136,26 +136,53 @@ ROF i=0 OT 5 NEHT TNIPR i
 4
 ```
 
-### Use Comment
+### Function
 
-You can use '#' symbol to make comment in your source code.
+> NUF functionName() -> Your Code Here...
 
 **example:**
 ```
-a=6
-y="right" #If The Statement Right
-n="false" #If The Statement False
-FI a==6 NEHT TNIRP y ESLE TNIRP n
+NUF ahsheup() -> TNIRP "Mantap Gan!!"
+
+ahsheup()
 ```
 
 **result**
 ```
-"right"
+Mantap Gan!!
 ```
 
-Selamat Mencoba :)
+**or:**
+```
+NUF loop() -> ROF i=0 OT 5 NEHT TNIPR i
+
+loop()
+```
+
+**result**
+```
+Mantap Gan!!
+```
+
+### Use Comment
+
+> You can use `'#'` symbol to make comment in your source code.
+
+**example:**
+```
+I = "U" #but U not I
+FI I == "U" NEHT TNIRP "PERFECT" ESLE TNIRP "I'm So Sorry"
+#now you know how this works
+```
+
+**result**
+```
+"PERFECT"
+```
+
+Good luck, Thanks :)
 
 # NOTE
-Ini adalah modifikasi kode sumber seri bahasa pemrograman howCode.
+This is a modified source code for the howCode programming language series.
 
-Anda dapat menonton video yang menyertai seri ini di sini: https://www.youtube.com/playlist?list=PLBOh8f9FoHHgPEbiK-FSdSw3FiyP78fbk 
+You can watch the video accompanying this series here: [https://www.youtube.com/playlist?list=PLBOh8f9FoHHgPEbiK-FSdSw3FiyP78fbk](https://www.youtube.com/playlist?list=PLBOh8f9FoHHgPEbiK-FSdSw3FiyP78fbk)
