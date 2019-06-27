@@ -1,1 +1,6 @@
-ROF i=0 OT 5 NEHT TNIPR i
+ROF i=0 OT 5 NEHT TNIRP i
+
+TNIRP "atau menggunakan ini"
+
+a=6
+ROF i=0 OT 5 NEHT a+i
