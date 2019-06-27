@@ -1,5 +1,6 @@
 # Rhs-Lang
 Repository of Compilation Techniques (Learning) with [Library SLY](https://sly.readthedocs.io/en/latest/sly.html).
+You can read the [manual book here](https://github.com/fauzaaulia/Rhs-Lang/blob/master/MANUAL%20BOOK%20Rhs-Lang%20-%20TEKNIK%20KOMPILASI.pdf) 
 
 ## Our Grup:
 - Ahmad Fauza Aulia
